@@ -1,0 +1,426 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 990px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+ul, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39aae1;
+    color: #ffffff;
+}
+/* banner topo de site */
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 670px;
+}
+
+.column {
+    flex-direction: column;
+}
+/* banners de noticia */
+.banner-headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-headline h1 {
+    color: #ffffff;
+    font-size: 65px;
+    text-shadow: 1px 1px 0px #000000;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+}
+
+.banner-headline h2 {
+    color: #ffffff;
+    font-size: 21px;
+    text-shadow: 1px 1px 0px #555555;
+    margin: 0;
+    padding: 0;
+    max-width: 350px;
+    margin-top: 30px;
+}
+
+.banner-options {
+    height: 210px;
+    display: flex;
+}
+/* banner inicial de horarios e emergencia */
+.banner1,
+.banner2,
+.banner3 {
+    flex: 1;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.banner1 {
+    background-color: #39aae1;
+}
+
+.banner2 {
+    background-color: #0079c7;
+}
+
+.banner3 {
+    background-color: #2b4c99;
+}
+
+.banner-tittle {
+    font-size: 21px;
+}
+
+.banner-desk {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner-options a {
+    display: inline-block;
+    border: 1px solid #ffffff;
+    padding: 5px;
+    color: #ffffff;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.banner-time {
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}
+
+#geral section {
+    flex: 2;
+}
+/* aside */
+#geral aside {
+    flex: 1;
+    
+}
+/* widgets titulo */
+.widget-tittle {
+    margin-top: 39px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.widget-tittle-text {
+    color: #000000;
+    font-size: 21px;
+}
+
+.widget-tittle-bar {
+    width: 50px;
+    height: 2px;
+    background-color: #36a9e1;
+    margin-top: 10px;
+}
+/* box do widget para exemplos */
+.widget-body{
+    display: flex;
+}
+.box1, .box2 {
+    flex-direction: row;
+    height: 40px;
+    width: 80px;
+    background-color: #39aae1;
+    padding: 8px;
+    margin: 8px;
+    justify-content: space-around;
+}
+
+/* flex seria o "widget-body flex" */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    flex: 1;
+    min-width: 300px;
+    margin-right: 20px;
+}
+
+/* edição articles de noticia página */
+article a {
+    text-decoration: none;
+}
+
+article .news-data {
+    display: flex;
+}
+
+article .news-posted {
+    background-color: #2b4c99;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+    margin-right: 2px;
+}
+
+article .news-comments {
+    background-color: #39aae1;
+    color: #FFFFFF;
+    font-size: 12px;
+    padding: 10px;
+}
+
+article .news-thumb {
+    margin-top: 20px;
+}
+
+article .news-thumb img {
+    width: 100%;
+    height: auto;
+}
+
+article .news-tittle {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #000000;
+    font-size: 25px;
+}
+
+article .news-resume {
+    color: #5c5c5c;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+/* footer geral */
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+}
+
+/* footer titulos e conteudos azul */
+.fm-tittle {
+    font-size: 20px;
+    padding: 8px;
+}
+
+.fm-resume {
+    font-size: 14px;
+    padding: 2px;
+    flex-wrap: wrap;
+}
+/* seguro registro e contas online */
+.fm1, .fm2, .fm3 {
+    flex: 1;
+    color: #FFFFFF;
+    padding: 20px;
+}
+
+.fm1 {
+    background-color: #39aae1;
+}
+
+.fm2 {
+    background-color: #0079c7;
+}
+
+.fm3 {
+    background-color: #2b4c99;
+}
+
+.widget-tittle-text a {
+    text-decoration: none;
+    color: #383472;
+}
+
+/* arrumando as linhas do container em column */
+.flexcolumn {
+    flex-direction: column;
+}
+/* footer geral */
+.footer-area {
+    display: flex;
+}
+
+.footer-areaitem {
+    color: #ffffff;
+    flex: 1;
+}
+
+footer .widget-tittle-text {
+    color: #FFFFFF;
+}
+
+.footer-text {
+    color: #5c5c5c;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.contact {
+    color: #5c5c5c;
+    font-size: 15px;
+    padding: 8px;
+}
+
+.footer-copy {
+    border-top: 1px solid #2c2c2c;
+    height: 60px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.footer-copy p{
+    margin-left: 400px;
+}
+
+/* menu mobile */
+.menuMobile {
+    display: none;
+    width: 40px;
+    height: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-right: 15px;
+}
+
+.mm-line {
+    height: 3px;
+    background-color: #39aae1;
+}
+
+/* media para tamanhos responsivo */
+ @media (max-width: 600px) {
+    .banner-headline {
+        padding: 20px;
+    }
+    .banner-headline h1 {
+        font-size: 55px;
+    }
+    .banner-headline h2 {
+        font-size: 17px;
+    }
+    .banner-options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .widget-tittle-text{
+        padding-top: 35px;
+    }
+    #geral section,
+    #geral aside {
+        padding: 20px;
+    }
+    .footer-menu {
+        flex-direction: column;
+    }
+    .footer-area {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-copy {
+        padding-left: 20px;
+    }
+    .footer-copy p{
+        margin-left: 25%;
+    }
+/* aqui leva ROW pois n queremos todo o cabeçalho em coluna */
+    header .container{
+        flex-direction: row;
+    }
+/* column nas UL para os botões se posicionarem na direita */
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+/* display ativado para mobile */
+    .menuMobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    .box1, .box2 {
+        flex-direction: column;
+        height: 20px;
+        width: 40px;
+        background-color: #39aae1;
+        padding: 5px;
+        margin: 5px;
+        justify-content: space-around;
+    }
+    
+}

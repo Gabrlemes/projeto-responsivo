@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+
+    <script type="text/javascript">
+        window.onload =function(){
+            document.querySelector(".menuMobile").addEventListener("click", function(){
+                if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                    document.querySelector(".menu nav ul").style.display = 'none';
+                }else {
+                    document.querySelector(".menu nav ul").style.display = 'flex';
+                }            
+            });
+        };
+    </script>
+    <title>MediCenter</title>
+</head>
+<body>
+    <!-- cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href=""><img src="img/logo.png"/></a>
+            </div>
+            <div class="menu">
+                <nav>
+                    <!-- menu para mobile -->
+                    <div class="menuMobile">
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                        <div class="mm-line"></div>
+                    </div>
+                    <ul>
+                        <li class="active"><a href="">HOME</a></li>
+                        <li><a href="#contato">CONTATOS</a></li>
+                        <li><a href="https://www.lncc.br/~borges/php/testar.html" target="_blank">SOBRE</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- banner topo do site -->
+    <section id="banner">
+        <Div  class="container column">
+            <div class="banner-headline">
+                <h1>Experiência de alto nível</h1>
+                <h2>MedCenter é um modelo responsivo perfeito para todos os tamanhos de tela</h2>
+            </div>
+            <div class="banner-options">
+                <!-- banner de emergencia -->
+                <div class="banner1">
+                    <div class="banner-tittle">Caso de emergência</div>
+                    <div class="banner-desk">Se precisar de um médico com urgência fora do horário de funcionamento do Medicenter, ligue para o número de consulta de emergência do serviço de emergência
+                    </div>
+                    <a href="https://www.letras.mus.br/chininha/caso-de-emergencia/" target="_blank">Leia Mais</a>
+                </div>
+                <!-- banner de medicos -->
+                <div class="banner2">
+                    <div class="banner-tittle">Horário dos Médicos</div>
+                    <div class="banner-desk">Aqui na medicenter temos lista médica individual. Clique em leia mais abaixo para ver os serviços e horários atuais de nossos médicos</div>
+                    <a href="https://blog.sinaxys.com/jornada-trabalho-medicos/#:~:text=A%20duração%20de%20um%20plantão,de%2012%20a%2024%20horas." target="_blank">Leia Mais</a>
+                </div>
+                <!-- banner de horarios -->
+                <div class="banner3">
+                    <div class="banner-tittle">Horário de funcionamento</div>
+                    <div class="banner-time">Segunda a sexta <div class="time">8:00 - 17:30</div></div> <hr>
+                    <div class="banner-time">Sábado <div class="time">9:00 - 17:00</div></div> <hr>
+                    <div class="banner-time">Domingo <div class="time">9:00 - 12:00</div></div> <hr>
+                </div>
+            </div>
+        </Div>
+    </section>
+
+    <section id="geral">
+        <div class="container">
+            <!-- section de widgets pagina -->
+            <section>
+                <div class="widget">
+                    <div class="widget-tittle">
+                        <Div class="widget-tittle-text">Últimas Notícias</Div>
+                        <div class="widget-tittle-bar"></div>
+                    </div>
+                    <div class="widget-body flex">
+                        
+                        <!-- primeiro widget de noticia -->
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted">12 AGOSTO</div>
+                                    <div class="news-comments">1</div>   
+                                </div>
+                                <div class="news-thumb">
+                                    <img  src="img/consultorio.jpg" />
+                                </div>
+                                <div class="news-tittle">
+                                    Lorem ipsum dolor sit amat velun
+                                </div>
+                                <div class="news-resume">
+                                    É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout.
+                                    É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout.
+                                </div>
+                            </a>
+                        </article>
+                                               
+                        <!-- segundo widget de noticia -->
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted">19 AGOSTO</div>
+                                    <div class="news-comments">2</div>   
+                                </div>
+                                <div class="news-thumb">
+                                    <img  src="img/consultorio.jpg" />
+                                </div>
+                                <div class="news-tittle">
+                                    Lorem ipsum dolor sit amat velun
+                                </div>
+                                <div class="news-resume">
+                                    É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout.
+                                </div>
+                            </a>
+                        </article>
+
+                        <!-- terceiro widget de noticia -->
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted">29 AGOSTO</div>
+                                    <div class="news-comments">1</div>   
+                                </div>
+                                <div class="news-thumb">
+                                    <img  src="img/consultorio.jpg" />
+                                </div>
+                                <div class="news-tittle">
+                                    Lorem ipsum dolor sit amat velun
+                                </div>
+                                <div class="news-resume">
+                                    É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout.
+                                </div>
+                            </a>
+                        </article>
+
+                        <!-- quarto widget de noticia -->
+                        <article>
+                            <a href="">
+                                <div class="news-data">
+                                    <div class="news-posted">30 AGOSTO</div>
+                                    <div class="news-comments">2</div>   
+                                </div>
+                                <div class="news-thumb">
+                                    <img  src="img/consultorio.jpg" />
+                                </div>
+                                <div class="news-tittle">
+                                    Lorem ipsum dolor sit amat velun
+                                </div>
+                                <div class="news-resume">
+                                    É um fato estabelecido há muito tempo que um leitor se distrairá com o conteúdo legível de uma página ao observar seu layout.
+                                </div>
+                            </a>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+            <aside>
+                <!-- widgets lateral -->
+                <div class="widget">
+                    <div class="widget-tittle">
+                        <Div class="widget-tittle-text">Departamento</Div>
+                        <div class="widget-tittle-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="box1"></div>
+                        <div class="box2"></div>
+                    </div>
+                    <div class="widget-body">
+                        <div class="box1"></div>
+                        <div class="box2"></div>
+                    </div>
+                </div>
+
+                <div class="widget">
+                    <div class="widget-tittle">
+                        <Div class="widget-tittle-text">Marque uma consulta</Div>
+                        <div class="widget-tittle-bar"></div>
+                    </div>
+                    <div class="widget-body">
+                        Lorem ipsum dolor sit amat velun
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container flexcolumn">
+            <div class="footer-menu">
+                <div class="fm1">
+                    <div class="fm-tittle">Seguro Saúde</div>    
+                    <div class="fm-resume">Aqui na medicenter temos atendimento individual</div>           
+                </div>
+                <div class="fm2">
+                    <div class="fm-tittle">Registros Médicos</div>
+                    <div class="fm-resume">Aqui no medicenter temos atendimento individual ➡️</div>  
+                </div>
+                <div class="fm3">
+                    <div class="fm-tittle">Contas on-line</div>
+                    <div class="fm-resume">Aqui no medicenter temos atendimento individual</div>  
+                </div>
+            </div>
+
+            <div class="footer-area">
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-tittle">
+                            <Div class="widget-tittle-text" id="contato">Clinica MedCenter</Div>
+                            <div class="widget-tittle-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="footer-text"> adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                            <div class="contact"> +123 655 655</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-tittle">
+                            <Div class="widget-tittle-text">Ultimos Posts</Div>
+                            <div class="widget-tittle-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="footer-text"> adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-areaitem">
+                    <div class="widget">
+                        <div class="widget-tittle">
+                            <Div class="widget-tittle-text"><a href="https://www.instagram.com/gabr_lemes/" target="_blank">Instagram</a> mais recente</Div>
+                            <div class="widget-tittle-bar"></div>
+                        </div>
+                        <div class="widget-body">
+                            <div class="footer-text"> adipiscing mauris fringilla turpis interdum sed pulvinar nisi malesuada individual.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-copy">
+                <p>Copyright - Todos os direitos reservados</p>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
